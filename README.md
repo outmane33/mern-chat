@@ -4,4 +4,3 @@
 🟢 User Presence: Online User Status Tracking  
 🌐 State Management: Global state handled with Zustand  
 ⚠️ Error Handling: Managed on both Client & Server sides  
-🚀 Seamless Deployment: Deployed Live and for Free!  
