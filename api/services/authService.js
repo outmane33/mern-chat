@@ -73,6 +73,6 @@ exports.protect = expressAsyncHandler(async (req, res, next) => {
 exports.checkAuth = expressAsyncHandler(async (req, res, next) => {
   res.status(200).json({
     status: "success",
-    user: sanitizeUser(req.user),
+    user: req.user ? sanitizeUser(req.user) : null,
   });
 });
